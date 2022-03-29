@@ -17,7 +17,7 @@ What things you need and what to install and how to install them on your own mac
 #### Files
 * sk.wic
 * wickr_db
-* Put the 2 files above in the same folder as wickr_decrypt
+* Put the 2 files above in the same folder as decrypt_wickr.py
 ### Installing
 
 A step by step series of examples that tell you how to start using the application.
