@@ -31,7 +31,7 @@ git clone https://github.com/faisouq/forensic-tools.git
 git clone git@github.com:faisouq/forensic-tools.git
 ```
 
-When you succesfully cloned the repository, change the directory to the repository using: `cd wickr_decrypt/`, then you're in the right folder, install the necessary packages that's inside the requirements.txt file
+When you succesfully cloned the repository, change the directory to the repository using: `cd forensic-tools/wickr_decrypt/`, then you're in the right folder, install the necessary packages that's inside the requirements.txt file
 
 ```bash
 python -m pip install -r requirements.txt
