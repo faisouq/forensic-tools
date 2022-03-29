@@ -17,7 +17,7 @@ What things you need and what to install and how to install them on your own mac
 #### Files
 * sk.wic
 * wickr_db
-
+* Put the 2 files above in the same folder as wickr_decrypt
 ### Installing
 
 A step by step series of examples that tell you how to start using the application.
@@ -25,10 +25,10 @@ A step by step series of examples that tell you how to start using the applicati
 In your environment, firstly clone the repository, using HTTPS or SSH
 ```bash
 # The following command is to clone the repository using HTTPS
-git clone https://github.com/faisouq/wickr-decrypt.git
+git clone https://github.com/faisouq/forensic-tools.git
 
 # The following comment is to clone the repository using SSH (recommended)
-git clone git@github.com:faisouq/wickr-decrypt.git
+git clone git@github.com:faisouq/forensic-tools.git
 ```
 
 When you succesfully cloned the repository, change the directory to the repository using: `cd wickr_decrypt/`, then you're in the right folder, install the necessary packages that's inside the requirements.txt file
@@ -39,7 +39,7 @@ python -m pip install -r requirements.txt
 
 And now you can run the file by using the command:
 ```bash
- python .\wickr_decrypt.py
+ python .\decrypt_wickr.py
 ```
 
 ## Built With
