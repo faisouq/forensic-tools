@@ -14,7 +14,7 @@ with open("output.txt", "wb") as outputfile:
 with open("output.txt", "rb") as datafile:
     data = str(datafile.read())
 
-KDF_salt = bytes.fromhex("3C9D604510FEB906186E04D87239E09B")
+KDF_salt = bytes.fromhex(data[4:36])
 GCM_nonce = bytes.fromhex(data[38:62])
 GCM_tag = data[62:94]
 ciphertext = data[94:238]
