@@ -14,6 +14,10 @@ What things you need and what to install and how to install them on your own mac
 * [Git](https://git-scm.com/)
 * Python3 with pip 
 
+#### Files
+* sk.wic
+* wickr_db
+
 ### Installing
 
 A step by step series of examples that tell you how to start using the application.
